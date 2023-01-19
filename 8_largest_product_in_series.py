@@ -27,7 +27,6 @@ def compute_digits_product(str):
     return product
 
 def find_largest_product(n):
-    index = 0
     largest_product = 0
     for index in range(len(number)+1-n):
         digits = number[index:index+n]
