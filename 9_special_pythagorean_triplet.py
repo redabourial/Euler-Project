@@ -1,5 +1,3 @@
-
-
 def get_possibilites(numbers_sum=1000, depth=3):
     if depth == 1:
         yield [numbers_sum]
